@@ -15,8 +15,8 @@
             android:id="@+id/navBtn"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginStart="15dp"
             android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
             android:background="@drawable/ic_home" />
 
         <TextView
@@ -30,6 +30,14 @@
             android:ellipsize="middle"
             android:textColor="#fff"
             android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/navBtn2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/ic_menu" />
 
     </FrameLayout>
 

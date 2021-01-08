@@ -4,6 +4,6 @@ import com.google.gson.annotations.SerializedName
 
 class PlaceResponse(val status: String, val places: List<Place>)
 
-class Place(val name: String, val location: Location, @SerializedName("formatted_address") val address: String)
+class Place(var name: String, val location: Location, @SerializedName("formatted_address") val address: String)
 
-class Location(val lng: String, val lat: String)
+class Location(var lng: String, var lat: String)
